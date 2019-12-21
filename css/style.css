@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000000;
+    padding: 15px 30px;
+}
+.main-menu {
+    display: flex;
+    list-style-type: none;
+}
+.main-menu > li {
+    margin-right: 15px;
+}
+.main-menu a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.sub-menu {
+    display: none;
+}
+#search img {
+    max-width: 32px;
+}
